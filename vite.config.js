@@ -1,9 +1,8 @@
 import path from 'path'
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from 'tailwindcss'; // If you're using Tailwind CSS
-import autoprefixer from 'autoprefixer'; // Import autoprefixer
-
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 export default defineConfig({
   build: {
     lib: {
@@ -18,23 +17,24 @@ export default defineConfig({
           react: 'React'
         }
       },
-      plugins: [tailwindcss()]
+      plugins: [],
     },
     test: {
       globals: false,
       environment: 'jsdom'
     },
-    css: {
-      // Add PostCSS plugins to the preprocess options
-      preprocess: {
-        // Use the PostCSS plugin and specify its configuration file
-        postcss: {
-          plugins: [
-            autoprefixer(), // Include autoprefixer
-          ],
-        },
+  },
+  plugins: [react()],
+  css: {
+    // Add PostCSS plugins to the preprocess options
+    preprocess: {
+      // Use the PostCSS plugin and specify its configuration file
+      postcss: {
+        plugins: [
+          autoprefixer(), // Include autoprefixer
+          tailwindcss(), // Include Tailwind CSS
+        ],
       },
     },
   },
-  plugins: [react(),tailwindcss()]
-})
+});
