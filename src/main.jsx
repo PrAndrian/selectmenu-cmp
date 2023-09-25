@@ -1,0 +1,61 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+import { useState } from 'react'
+import SelectMenu from './components'
+import './index.css'
+
+function App() {
+
+  const departements = [
+    {
+        name : "Sales"
+    },
+    {
+        name : "Marketing"
+    },
+    {
+        name : "Engineering"
+    },
+    {
+        name : "Human Resources"
+    },
+    {
+        name : "Legal"
+    }
+  ]
+  
+  const [departement, setDepartement] = useState('')
+
+  return (
+    <>
+      <main className='flex flex-col justify-center items-center w-screen h-screen '>
+        <div className='w-[500px] mt-[-100px]'>
+          <SelectMenu
+            id={"departement"}
+            values={departements}
+            setter={setDepartement}
+            isError={false}
+            inputValue={departement}
+            // width={'350px'}
+            // inputHeight={'45px'}
+            // backgroundColor={"orange"}
+            // textColor={"red"}
+            // activeColor={"blue"}
+            // inputTextColor={"orange"}
+            // inputBackgroundColor={"#ffe9d3"}
+            // iconColor={"orange"}
+          />
+        </div>
+      </main>
+    </>
+  )
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+
+export default App
