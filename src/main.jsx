@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import { useState } from 'react'
-import SelectMenu from './components'
+import SelectMenu from './components/SelectMenu'
 import './index.css'
 
 function App() {
