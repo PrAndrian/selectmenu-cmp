@@ -3,10 +3,11 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
+
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/components/index.jsx'),
+      entry: path.resolve(__dirname, 'src/index.js'),
       name: 'selectMenu-cmp',
       fileName: (format) => `selectMenu-cmp.${format}.js`
     },

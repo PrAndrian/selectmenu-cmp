@@ -29,8 +29,6 @@ function App() {
 
   return (
     <>
-      <main className='flex flex-col justify-center items-center w-screen h-screen '>
-        <div className='w-[500px] mt-[-100px]'>
           <SelectMenu
             id={"departement"}
             values={departements}
@@ -46,8 +44,6 @@ function App() {
             // inputBackgroundColor={"#ffe9d3"}
             // iconColor={"orange"}
           />
-        </div>
-      </main>
     </>
   )
 }
