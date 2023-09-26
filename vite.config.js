@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.js'),
-      name: 'selectMenu-cmp',
-      fileName: (format) => `selectMenu-cmp.${format}.js`
+      name: 'selectmenu-cmp',
+      fileName: (format) => `selectmenu-cmp.${format}.js`
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
