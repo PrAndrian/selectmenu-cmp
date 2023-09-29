@@ -45,7 +45,7 @@ Here's an example of how to use the `SelectMenu` component:
 
 ```javascript
 import React, { useState } from 'react';
-import SelectMenu from './SelectMenu';
+import SelectMenu from "selectmenu-cmp";
 
 function App() {
   const [selectedValue, setSelectedValue] = useState('');
