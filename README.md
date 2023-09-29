@@ -2,6 +2,11 @@
 
 The SelectMenu component is a React component that provides a customizable dropdown menu with search functionality. It allows users to select an option from a list of values and provides various customization options for appearance and behavior.
 
+## Prerequisites
+To use the SelectMenu component in your React application, you need:
+
+Node : ^16.15.1
+
 ## Installation
 
 To use the SelectMenu component in your React application, follow these steps:
