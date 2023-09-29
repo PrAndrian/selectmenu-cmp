@@ -5,7 +5,10 @@ The SelectMenu component is a React component that provides a customizable dropd
 ## Prerequisites
 To use the SelectMenu component in your React application, you need:
 
-Node : ^16.15.1
+
+   ```bash
+   Node : ^16.15.1
+   ```
 
 ## Installation
 
