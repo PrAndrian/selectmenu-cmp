@@ -35,7 +35,7 @@ function App() {
             setter={setDepartement}
             isError={false}
             inputValue={departement}
-            width={'350px'}
+            width={'350px'} 
             inputHeight={'45px'}
             backgroundColor={"orange"}
             textColor={"red"}

@@ -9,7 +9,9 @@ To use the SelectMenu component in your React application, you need:
    ```bash
    Node : ^16.15.1
    ```
-    2. TO have install tailwindcss : https://tailwindcss.com/docs/installation/framework-guides
+    2. To have install tailwindcss : 
+    https://tailwindcss.com/docs/installation/framework-guides
+    
 ## Installation
 
 To use the SelectMenu component in your React application, follow these steps:
