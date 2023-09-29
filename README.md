@@ -5,11 +5,11 @@ The SelectMenu component is a React component that provides a customizable dropd
 ## Prerequisites
 To use the SelectMenu component in your React application, you need:
 
-
+   1. To have node
    ```bash
    Node : ^16.15.1
    ```
-
+    2. TO have install tailwindcss : https://tailwindcss.com/docs/installation/framework-guides
 ## Installation
 
 To use the SelectMenu component in your React application, follow these steps:
@@ -20,9 +20,7 @@ To use the SelectMenu component in your React application, follow these steps:
    npm install selectmenu-cmp
    ```
 
-1. Install the tailwind in your project: https://tailwindcss.com/docs/installation/framework-guides
-
-1. Your tailwin.config.js should be like this :
+2. Your tailwin.config.js should be like this :
 
    ```javascript
    /** @type {import('tailwindcss').Config} */
@@ -39,13 +37,13 @@ To use the SelectMenu component in your React application, follow these steps:
     }
    ```
 
-2. Import the SelectMenu component into your React application:
+3. Import the SelectMenu component into your React application:
 
    ```javascript
    import SelectMenu from "selectmenu-cmp";
    ```
 
-3. You can now use the `SelectMenu` component in your application.
+4. You can now use the `SelectMenu` component in your application.
 
 ## Usage
 
