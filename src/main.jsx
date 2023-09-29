@@ -35,14 +35,14 @@ function App() {
             setter={setDepartement}
             isError={false}
             inputValue={departement}
-            // width={'350px'}
-            // inputHeight={'45px'}
-            // backgroundColor={"orange"}
-            // textColor={"red"}
-            // activeColor={"blue"}
-            // inputTextColor={"orange"}
-            // inputBackgroundColor={"#ffe9d3"}
-            // iconColor={"orange"}
+            width={'350px'}
+            inputHeight={'45px'}
+            backgroundColor={"orange"}
+            textColor={"red"}
+            activeColor={"blue"}
+            inputTextColor={"orange"}
+            inputBackgroundColor={"#ffe9d3"}
+            iconColor={"orange"}
           />
     </>
   )

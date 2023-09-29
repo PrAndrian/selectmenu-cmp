@@ -63,6 +63,14 @@ function App() {
         values={values}
         inputValue={selectedValue}
         setter={setSelectedValue}
+        width={'350px'}
+        inputHeight={'45px'}
+        backgroundColor={"orange"}
+        textColor={"red"}
+        activeColor={"blue"}
+        inputTextColor={"orange"}
+        inputBackgroundColor={"#ffe9d3"}
+        iconColor={"orange"}
       />
     </div>
   );
