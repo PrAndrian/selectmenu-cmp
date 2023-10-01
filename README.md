@@ -5,11 +5,9 @@ The SelectMenu component is a React component that provides a customizable dropd
 ## Prerequisites
 To use the SelectMenu component in your React application, you need:
 
-   1. To have node
-   ```bash
-   Node : ^16.15.1
-   ```
-    2. To have install tailwindcss : 
+  1. To have node Node : ^16.15.1
+
+  2. To have install tailwindcss : 
     https://tailwindcss.com/docs/installation/framework-guides
     
 ## Installation
