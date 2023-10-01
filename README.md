@@ -47,6 +47,7 @@ To use the SelectMenu component in your React application, follow these steps:
 
 ## Usage
 
+You can find exemples in the folder `src/examples` of this repository.
 Here's an example of how to use the `SelectMenu` component:
 
 ```javascript
