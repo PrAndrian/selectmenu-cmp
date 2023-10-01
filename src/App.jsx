@@ -12,17 +12,17 @@ import SelectMenuIconColor from './examples/SelectMenuIconColor'
 
 const App = () => {
   return (
-    <main className='h-screen flex justify-center items-center mt-[-100px]'>
-        <div className='w-1/2 flex justify-center'>
+    <main className='h-screen flex justify-center items-center'>
+        <div className='w-1/2 flex flex-col justify-center gap-10'>
             {/* <SelectMenuAllOptions/> */}
-            {/* <SelectMenuDefault/> */}
-            {/* <SelectMenuWidth/> */}
-            {/* <SelectMenuInputHeight/> */}
-            {/* <SelectMenuBackgroundColor/> */}
-            {/* <SelectMenuTextColor/> */}
-            {/* <SelectMenuActiveColor/> */}
-            {/* <SelectMenuInputTextColor/> */}
-            {/* <SelectMenuInputBackgroundColor/> */}
+            <SelectMenuDefault/>
+            <SelectMenuWidth/>
+            <SelectMenuInputHeight/>
+            <SelectMenuBackgroundColor/>
+            <SelectMenuTextColor/>
+            <SelectMenuActiveColor/>
+            <SelectMenuInputTextColor/>
+            <SelectMenuInputBackgroundColor/>
             <SelectMenuIconColor/>
         </div>
     </main>
