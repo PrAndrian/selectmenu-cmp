@@ -110,7 +110,7 @@ const SelectMenu = ({
         `}
         style={{ backgroundColor:backgroundColor, color: textColor, width : width}}
       >
-        <div className="p-2">
+        <div className={` ${isOverflowing ? 'flex flex-col-reverse':''} p-2`}>
           <SearchBar 
             id={id}
             onSearch={handleSearch}
