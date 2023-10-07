@@ -12,17 +12,26 @@ import SelectMenuIconColor from './examples/SelectMenuIconColor'
 
 const App = () => {
   return (
-    <main className='h-screen flex justify-center items-center'>
+    <main className='flex flex-col justify-center items-center py-10'>
+      <h1 className='text-3xl font-bold'>Examples</h1>
         <div className='w-1/2 flex flex-col justify-center gap-10'>
-            {/* <SelectMenuAllOptions/> */}
+            <h2 className='text-3xl'>1) Select Menu Default</h2>
             <SelectMenuDefault/>
+            <h2 className='text-3xl'>2) Select Menu Width</h2>
             <SelectMenuWidth/>
+            <h2 className='text-3xl'>3) Select Menu Input Height</h2>
             <SelectMenuInputHeight/>
+            <h2 className='text-3xl'>4) Select Menu Background Color</h2>
             <SelectMenuBackgroundColor/>
+            <h2 className='text-3xl'>5) Select Menu Text Color</h2>
             <SelectMenuTextColor/>
+            <h2 className='text-3xl'>6) Select Menu ActiveColor</h2>
             <SelectMenuActiveColor/>
+            <h2 className='text-3xl'>7) Select Menu Input Text Color</h2>
             <SelectMenuInputTextColor/>
+            <h2 className='text-3xl'>8) Select Menu Input Background Color</h2>
             <SelectMenuInputBackgroundColor/>
+            <h2 className='text-3xl'>9) Select Menu Icon Color</h2>
             <SelectMenuIconColor/>
         </div>
     </main>
