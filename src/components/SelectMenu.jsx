@@ -5,6 +5,27 @@ import { useEffect, useRef, useState } from "react"
 import SearchBar from "./SearchBar"
 import '../index.css'
 
+/**
+ * A customizable select menu component with options and search functionality.
+ *
+ * @component
+ * @param {object} props - The component's props.
+ * @param {string} props.id - The unique identifier for the select menu (required).
+ * @param {string} props.inputValue - The current value selected in the menu (required).
+ * @param {function} props.setter - A callback function to set the selected value (required).
+ * @param {boolean} props.isError - Indicates if there's an error state (required).
+ * @param {string} [props.width='100%'] - The width of the select menu.
+ * @param {string} [props.inputHeight='45px'] - The height of the input field.
+ * @param {string} [props.backgroundColor='white'] - The background color of the select menu.
+ * @param {string} [props.textColor='black'] - The text color of the select menu.
+ * @param {string} [props.borderColor='black'] - The border color of the select menu.
+ * @param {string} [props.inputTextColor='black'] - The text color of the input field.
+ * @param {string} [props.inputBackgroundColor='transparent'] - The background color of the input field.
+ * @param {string} [props.iconColor='black'] - The color of the dropdown icon.
+ * @param {string} [props.activeColor='#D0E7B9'] - The background color of the selected option.
+ * @param {array} props.values - An array of objects representing the selectable options (required).
+ * @return {JSX.Element} The rendered SelectMenu component.
+ */
 const SelectMenu = ({
   id,
   values,

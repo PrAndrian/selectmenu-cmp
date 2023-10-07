@@ -4,6 +4,22 @@ import PropTypes from 'prop-types';
 import { useState } from 'react';
 import '../index.css'
 
+/**
+ * A search bar component with customizable styles.
+ *
+ * @component
+ * @param {object} props - The component's props.
+ * @param {string} [props.id] - The unique identifier for the search bar.
+ * @param {function} props.onSearch - A callback function to handle search input changes.
+ * @param {string} props.width - The width of the search bar.
+ * @param {string} props.height - The height of the search bar.
+ * @param {string} [props.placeHolder] - The placeholder text for the search input.
+ * @param {string} [props.iconColor] - The color of the search icon.
+ * @param {string} [props.borderColor] - The color of the search bar's border.
+ * @param {string} [props.backgroundColor] - The background color of the search bar.
+ * @param {string} [props.inputTextColor] - The text color of the search input.
+ * @return {JSX.Element} The rendered SearchBar component.
+ */
 const SearchBar = ({ 
     id={id},
     onSearch, 
